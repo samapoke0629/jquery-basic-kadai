@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $('.btn').click(function() {
-        alert('クリックしました！');
+        $('.text-box').val('クリックしました！');
     });
 });
